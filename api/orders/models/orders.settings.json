@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "orders",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "reference": {
+      "type": "string"
+    },
+    "sender": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sender.sender"
+    },
+    "receiver": {
+      "type": "component",
+      "repeatable": false,
+      "component": "receiver.receiver"
+    },
+    "Status": {
+      "type": "enumeration",
+      "enum": [
+        "Nieuw",
+        "Verzenden",
+        "Verzonden",
+        "Verwijderd"
+      ]
+    },
+    "portal": {
+      "type": "string"
+    },
+    "package": {
+      "type": "component",
+      "repeatable": true,
+      "component": "package.package"
+    }
+  }
+}

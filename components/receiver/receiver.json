@@ -1,0 +1,62 @@
+{
+  "collectionName": "components_receiver_receivers",
+  "info": {
+    "name": "receiver",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "houseNo": {
+      "type": "string"
+    },
+    "shipmentLineId": {
+      "type": "string"
+    },
+    "addressLine1": {
+      "type": "string"
+    },
+    "addressLine2": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "addressLine3": {
+      "type": "string"
+    },
+    "zipCode": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "lineNo": {
+      "type": "string"
+    },
+    "airwaybillNumber": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "accountNumber": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "telNo": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    }
+  }
+}
